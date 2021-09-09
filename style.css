@@ -59,12 +59,12 @@ nav {
 
 .nav-links a:hover {
     color: #ffffff;
-    font-size: 35px;
+    font-size: 28px;
 }
 
 .nav-links li {
     list-style: none;
-    display: list-item;
+    display: list-item;    
 }
 
 .nav-links li.active {
@@ -171,14 +171,14 @@ nav {
 
 .image1 {    
     border: 2px solid black;
-    border-radius: 5vh;
+    border-radius: 2vh;
     padding: 0.1vh;
     margin-bottom: 3vh;
 }
 
 .box {
     border: 3px solid #000;
-    border-radius: 5vh;      
+    border-radius: 2vh;      
     padding: 10px;
     height: 72vh;
 }
@@ -186,7 +186,7 @@ nav {
 .box > iframe {
     width: 100%;
     height: 56%;
-    border-radius: 5vh;
+    border-radius: 2vh;
 }
 
 .links {
@@ -202,7 +202,7 @@ nav {
     color: #000;
     font-family: 'Rubik', sans-serif;
     border: 3px solid #000;
-    border-radius: 5vh;
+    border-radius: 2vh;
     padding: 6px;
     width: 100%;
     margin: 1px;
@@ -250,7 +250,7 @@ nav {
     text-decoration: none;
     color: #000;
     border: solid 3px black;
-    border-radius: 5vh;    
+    border-radius: 2vh;    
     padding: 3vh;
     font-size: 4vh;
 }
@@ -283,10 +283,10 @@ nav {
 
 .pics > img {
     height: auto;
-    max-width: 55vh;
+    max-width: 25vw;
     position: absolute;
     border: 3px solid black;
-    border-radius: 5vh;    
+    border-radius: 2vh;    
 }
 
 .pics > img.hover-img {
@@ -358,7 +358,7 @@ nav {
     max-width:75vh;
     margin: 2vh;
 }
-
+/*
 .lions {
     display: flex;
     flex-direction: column;
@@ -389,13 +389,12 @@ nav {
 .lions > p {
     font-size: 1.5vh;
 }
-
+*/
 .vera {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    margin-top: 7vh;
+    text-align: center;   
 }
 
 .vera > a {
