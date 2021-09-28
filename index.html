@@ -1,683 +1,392 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&amp;display=swap" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prosa Interior - A melhor prosa de Bariri e região!</title>
 
-    <title>Prosa Interior - A melhor prosa de Bariri e região!</title>    
-</head>
+    <!--SWIPER-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
 
-<body>
+    <!--STYLESHEET-->
+    <link rel="stylesheet" href="./styles.css" />
 
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <div class="container" style="margin-top:16vh">
-        <div class="row">
-            <div class="col">
+    <!--ICONS-->
+    <link rel="stylesheet" href="./ASSETS/fonts/style.css" />
 
-            </div>          
-        </div>        
-    </div>  
+    <!--FAVICONS-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./ASSETS/imgs/FAVICONS/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./ASSETS/imgs/FAVICONS/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./ASSETS/imgs/FAVICONS/favicon-16x16.png">
+    <link rel="manifest" href="./ASSETS/imgs/FAVICONS/site.webmanifest">
+  </head>
+  <body>
+    <!--HEADER-->
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">
+          <img src="./ASSETS/imgs/Prosa Interior - Logo - ESCRITA.png" alt="" />
+        </a>
+        <div class="menu">
+          <ul class="grid">
+            <li>
+              <a class="title" href="#about">Sobre nós</a>
+            </li>
+            <li>
+              <a class="title" href="#episodes">Episódios</a>
+            </li>
+            <li>
+              <a class="title" href="#testimonials">Depoimentos</a>
+            </li>
+            <li>
+              <a class="title" href="#store">Loja</a>
+            </li>
+            <li>
+              <a class="title" href="#support">Apoiadores</a>
+            </li>
+          </ul>
+        </div>
 
-    <nav>        
-        <div class="logo">
-            <a href="index.html">
-                <img src="./img/Prosa@Selo-Colorido.png" alt="Prosa Interior">
-                <div class="text1">
-                    <h4 style="letter-spacing:3px">PROSA INTERIOR</h4>
-                </div> 
+        <div class="toggle icon-menu" style="color: white"></div>
+        <div class="toggle icon-close" style="color: var(--base-color)"></div>
+      </nav>
+    </header>
+
+    <!--MAIN-->
+    <main>
+      <!--ABOUT US -->
+      <section id="about" class="section">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="./ASSETS/imgs/ABOUTUSIMG.jpg"
+              alt="Três mulheres sorrindo e com acessórios de cabeleireiro"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre Nós</h2>
+            <p>
+              Compartilhando da vontade de possuir um canal para colecionar
+              histórias, os amigos Murilo e Leonardo arquitetaram o
+              <strong>Prosa Interior</strong>.
+            </p>
+            <br />
+            <p>
+              Um podcast que convida figuras relevantes do cenário baririense e
+              regional para prosear sobre os mais variados assuntos, contar
+              experiências pessoais e - por último, mas não menos importante -
+              dar muita risada!
+            </p>
+            <br />
+            <p>
+              Live todas as segundas feiras, à partir das 19h30 no nosso canal
+              do YouTube!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!--EPISODES-->
+      <section id="episodes" class="section">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Episódios</h2>
+            <p class="subtitle">
+              Confira alguns dos nossos episódios pra dar aquele gostinho de
+              quero mais!
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <iframe
+                src="https://www.youtube.com/embed/YQRdrRneDXE"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Episódio #20 - Raquel Furcin</p>
+            </div>
+            <div class="card">
+              <iframe
+                src="https://www.youtube.com/embed/TxCU_6c2r4U"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Episódio #29 - Daiane Stevanatto</p>
+            </div>
+            <div class="card">
+              <iframe
+                src="https://www.youtube.com/embed/mACgC15Ofcw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Episódio #31 - Paulinho Camilo</p>
+            </div>
+            <div class="card">
+              <iframe
+                src="https://www.youtube.com/embed/WwVMjMkLzBw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Episódio #38 - Felipe e Daniel (RADIX)</p>
+            </div>
+          </div>
+          <div class="buttons grid">
+            <a
+              class="button"
+              href="https://open.spotify.com/show/0aS0Y5ZQEDdRc1GPIBkjp5?si=C5brWzISSmyRKcsbNYLbdw&dl_branch=1"
+              target="_blank"
+            >
+              <i class="icon-spotify"> </i>
+              Todos os episódios no Spotify
             </a>
-                       
+            <a
+              class="button"
+              href="https://www.youtube.com/c/ProsaInterior"
+              target="_blank"
+            >
+              <i class="icon-youtube"></i>
+              Todos os episódios no Youtube
+            </a>
+          </div>
         </div>
-        <ul class="nav-links text1">
-            <li>
-                <a href="#home">HOME</a>
-            </li>
-            <li>
-                <a href="#episodes">EPISÓDIOS</a>
-            </li>
-            <li>
-                <a href="#store">LOJA</a>
-            </li>
-            <li>
-                <a href="#comments">COMENTÁRIOS</a>
-            </li>                    
-            <li>
-                <a href="#support">APOIADORES</a>
-            </li>                            
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>  
-    </nav>
+      </section>
 
-    <div id="home"class="container">
+      <div class="divider-2"></div>
 
-        <div class="row">
+      <!--TESTIMONIALS-->
+      <section id="testimonials" class="section">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Foi muito bom ter a oportunidade de ser entrevistada por
+                    vocês (duas vezes). Super profissionais, educados e
+                    receptivos. Ferramenta informativa muito importante para
+                    nossa comunidade!
+                    <br />
+                    Gratidão e sucesso.
+                  </p>
+                  <cite>
+                    <img src="./ASSETS/imgs/COMMENTS/site myrella.jpg" alt="" />
+                    Myrella Soares
+                  </cite>
+                </blockquote>
+              </div>
 
-            <div class="col-lg-3">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Vocês são ótimos anfitriões, deixam o convidado a vontade
+                    tanto pela postura de vocês quanto pelos mimos oferecidos,
+                    em especial, agradeço pelo cuidado de oferecerem comidinhas
+                    veganas.(...)
+                    <br />
+                    Vocês são demais!
+                  </p>
+                  <cite>
+                    <img src="./ASSETS/imgs/COMMENTS/site daisa.jpg" alt="" />
+                    Daísa Munhoz
+                  </cite>
+                </blockquote>
+              </div>
 
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Foi um dos melhores momentos da minha vida! Poder contar
+                    contos da 'Era Wagner Agita' em Bariri foi incrível!
+                    Acredito que foi o despertar de mais historias pra contar!
+                    Foi extremamente importante pra mim!!!
+                    <br />
+                    IMENSA GRATIDÃO!!!
+                  </p>
+                  <cite>
+                    <img src="./ASSETS/imgs/COMMENTS/site wagner.jpg" alt="" />
+                    Wagner Bueno
+                  </cite>
+                </blockquote>
+              </div>
             </div>
-            <div class="col-lg-6" style="display: flex; justify-content:center">                
-                <h2 class="text1" style="font-size: 8vh; margin: 4vh;">
-                    QUEM SOMOS?
-                </h2>                
-            </div>
-            <div class="col-lg-3">
 
-            </div>  
-
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
+      </section>
 
-        <div class="row">
+      <div class="divider-1"></div>
 
-            <div class="col-lg-3"></div>            
-            <div class="text2 about-us col-lg-6">                
-                <p>
-                    Compartilhando da vontade de possuir um canal para colecionar histórias, os amigos Murilo e Leonardo arquitetaram o <strong>Prosa Interior</strong>!
-                </p>
-            </div>
-            <div class="col-lg-3"></div>
+      <!--STORE-->
+      <section id="store" class="section">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Loja do Prosa!</h2>
+            <p class="subtitle">
+              Confira nossos produtos! (Em breve mais novidades)
+            </p>
+          </header>
 
-        </div>
+          <div class="cards grid">
 
-        <div class="row">
-
-            <div class="col-md-2 col-sm-3">
-
-            </div>
-            <div class="col-md-8 col-sm-6">
-                <img class="image1 img-fluid" src="./img/ABOUTUSIMG.jpg" alt="LEONARDO / MURILO">
-            <div class="col-md-2 col-sm-3">
-
-            </div>
-        </div>
-
-             
-
-        </div>
-
-        <div class="row">
-
-            <div class="col-lg-3">
-
-            </div>           
-
-            <div class="text2 about-us col-lg-6">                
-                    <p>
-                        Um podcast que convida figuras relevantes do cenário baririense e regional para prosear sobre os mais variados assuntos, contar experiências pessoais e - por último, mas não menos importante - dar muita risada!
-                    </p> 
-                    <p>
-                        Live todas as segundas feiras, à partir das 20h no nosso canal do YouTube!
-                    </p>                
-                
-            </div>
-            <div class="col-lg-3">
-
+            <div class="card"> 
+              <figure class="pics">
+                <img class="primary-img" src="./ASSETS/imgs/SITE IMGS/SHIRT1.jpg" onmouseover="this.src='./ASSETS/imgs/SITE IMGS/SHIRT2.jpg'" onmouseout="this.src='./ASSETS/imgs/SITE IMGS/SHIRT1.jpg'" alt="HOMEM E MULHER MOSTRANDO CAMISETA">
+              </figure>
+              <p>Camiseta "Prosinha Baririense" - R$ 60</p>
             </div>
 
-        </div>
-
-    </div>    
-        
-    <div id="episodes" class="container">
-
-        <div class="row">
-
-            <div class="col-lg-2">
-
+            <div class="card">
+              <figure class="pics">
+                <img class="primary-img" src="./ASSETS/imgs/SITE IMGS/MUG1.jpg"
+                onmouseover="this.src='./ASSETS/imgs/SITE IMGS/MUG2.jpg'" onmouseout="this.src='./ASSETS/imgs/SITE IMGS/MUG1.jpg'" alt="CANECA COM FONE">
+              </figure>              
+              <p>Caneca Prosa Interior - R$ 30</p>
             </div>
-            <div class="col-lg-8" style="display: flex; justify-content:center">                
-                <h2 class="text1" style="font-size: 8vh; margin: 4vh;">
-                    EPISÓDIOS
-                </h2>                
+
+            <div class="card">
+              <figure class="pics">
+                <img src="./ASSETS/imgs/SITE IMGS/COMBO1.jpg" onmouseover="this.src='./ASSETS/imgs/SITE IMGS/COMBO2.jpg'"
+                onmouseout="this.src='./ASSETS/imgs/SITE IMGS/COMBO1.jpg'" alt="HOMEM SEGURANDO CANECA">
+              </figure> 
+              <p>COMBO da Prosa - Camiseta + Caneca - R$ 80</p>
             </div>
-            <div class="col-lg-2">
-
-            </div>  
-
-        </div>
-
-        <div class="row">
-            <div class="col-lg-1 col-md-2 col-xs-3"></div>
-
-            <div class="col-lg-5 col-md-4 col-xs-3">
-                <div class="box" style="margin-top: 3vh;">
-                    <iframe src="https://www.youtube.com/embed/56kidSLPKcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="links">
-                        <a href="https://www.youtube.com/watch?v=56kidSLPKcU&t=4834s&ab_channel=ProsaInterior" target="_blank">
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-                                <p>                               Assista no YouTube
-                                </p> 
-                            </div>
-                            
-                        </a>
-                        <a href="https://open.spotify.com/episode/6pQLcCxfllt1Rxe81epjhw?si=2161622b3b5b4a61" target="_blank">
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.098 10.638c-3.868-2.297-10.248-2.508-13.941-1.387-.593.18-1.22-.155-1.399-.748-.18-.593.154-1.22.748-1.4 4.239-1.287 11.285-1.038 15.738 1.605.533.317.708 1.005.392 1.538-.316.533-1.005.709-1.538.392zm-.126 3.403c-.272.44-.847.578-1.287.308-3.225-1.982-8.142-2.557-11.958-1.399-.494.15-1.017-.129-1.167-.623-.149-.495.13-1.016.624-1.167 4.358-1.322 9.776-.682 13.48 1.595.44.27.578.847.308 1.286zm-1.469 3.267c-.215.354-.676.465-1.028.249-2.818-1.722-6.365-2.111-10.542-1.157-.402.092-.803-.16-.895-.562-.092-.403.159-.804.562-.896 4.571-1.045 8.492-.595 11.655 1.338.353.215.464.676.248 1.028zm-5.503-17.308c-6.627 0-12 5.373-12 12 0 6.628 5.373 12 12 12 6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12z"/></svg>
-                            <p>
-                            Ouça no Spotify 
-                            </p>
-                            </div>
-                            
-                        </a>
-                    </div>
-                </div>
-            </div>            
+          </div>
             
-            <div class="col-lg-5 col-md-4 col-xs-3">
-                <div class="box" style="margin-top: 3vh;">
-                    <iframe src="https://www.youtube.com/embed/ymYKb0fvZv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="links">
-                        <a href="https://www.youtube.com/watch?v=ymYKb0fvZv4&t=5s&ab_channel=ProsaInterior" target="_blank">
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-                                <p>                               Assista no YouTube
-                                </p> 
-                            </div>
-                            
-                        </a>
-                        <a href="https://open.spotify.com/episode/0MCGW0ySKti6reo8BLAtAs?si=Nr5Pj5Q1Roade8aPlytY5w" target="_blank">
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.098 10.638c-3.868-2.297-10.248-2.508-13.941-1.387-.593.18-1.22-.155-1.399-.748-.18-.593.154-1.22.748-1.4 4.239-1.287 11.285-1.038 15.738 1.605.533.317.708 1.005.392 1.538-.316.533-1.005.709-1.538.392zm-.126 3.403c-.272.44-.847.578-1.287.308-3.225-1.982-8.142-2.557-11.958-1.399-.494.15-1.017-.129-1.167-.623-.149-.495.13-1.016.624-1.167 4.358-1.322 9.776-.682 13.48 1.595.44.27.578.847.308 1.286zm-1.469 3.267c-.215.354-.676.465-1.028.249-2.818-1.722-6.365-2.111-10.542-1.157-.402.092-.803-.16-.895-.562-.092-.403.159-.804.562-.896 4.571-1.045 8.492-.595 11.655 1.338.353.215.464.676.248 1.028zm-5.503-17.308c-6.627 0-12 5.373-12 12 0 6.628 5.373 12 12 12 6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12z"/></svg>
-                            <p>
-                            Ouça no Spotify 
-                            </p>
-                            </div>
-                            
-                        </a>
-                    </div>
-                </div>
+          <div class="buttons grid">
+            <a
+              class="button"
+              href="https://forms.gle/4HTdpeKN2yBDApsi6"
+              target="_blank"
+            >             
+              Faça seu pedido aqui
+            </a>            
+          </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!--SUPPORT-->
+      <section id="support" class="section">
+
+        <div class="container grid">
+          <header>
+            <h2 class="title">Apoiadores</h2>
+          </header>
+          <div class="cards grid">
+            <div class="card master grid">
+              <a href="https://marianna.byfood.com.br" target="_blank">
+                <img src="./ASSETS/imgs/SPONSORS/MARIANNA.png" alt="ESFIHARIA MARIANNA">
+              </a>
+              <p>A melhor opção para matar a sua fome!              
+              </p>
+              <a href="https://wa.link/icdiz9" class="button" target="_blank">
+                <i class="icon-whatsapp"></i>
+                Faça sua encomenda aqui
+              </a>
             </div>
 
-            <div class="col-lg-1 col-md-2 col-xs-3"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-1 col-md-2 col-xs-3"></div>
-
-            <div class="col-lg-5 col-md-4 col-xs-3">
-                <div class="box" style="margin-top: 3vh;">
-                    <iframe src="https://www.youtube.com/embed/bdZYzyB900s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="links">
-                        <a href="https://www.youtube.com/watch?v=bdZYzyB900s&t=6481s&ab_channel=ProsaInterior" target="_blank">
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-                                <p>                               Assista no YouTube
-                                </p> 
-                            </div>
-                            
-                        </a>
-                        <a href="https://open.spotify.com/episode/2RbpAjyc5jAheCOHPfbhgR?si=3oG28AYiS1WKAw1BKqCYvg" target="_blank">
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.098 10.638c-3.868-2.297-10.248-2.508-13.941-1.387-.593.18-1.22-.155-1.399-.748-.18-.593.154-1.22.748-1.4 4.239-1.287 11.285-1.038 15.738 1.605.533.317.708 1.005.392 1.538-.316.533-1.005.709-1.538.392zm-.126 3.403c-.272.44-.847.578-1.287.308-3.225-1.982-8.142-2.557-11.958-1.399-.494.15-1.017-.129-1.167-.623-.149-.495.13-1.016.624-1.167 4.358-1.322 9.776-.682 13.48 1.595.44.27.578.847.308 1.286zm-1.469 3.267c-.215.354-.676.465-1.028.249-2.818-1.722-6.365-2.111-10.542-1.157-.402.092-.803-.16-.895-.562-.092-.403.159-.804.562-.896 4.571-1.045 8.492-.595 11.655 1.338.353.215.464.676.248 1.028zm-5.503-17.308c-6.627 0-12 5.373-12 12 0 6.628 5.373 12 12 12 6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12z"/></svg>
-                            <p>
-                            Ouça no Spotify 
-                            </p>
-                            </div>
-                            
-                        </a>
-                    </div>
-                </div>
-            </div>            
-            
-            <div class="col-lg-5 col-md-4 col-xs-3">
-                <div class="box" style="margin-top: 3vh;">
-                    <iframe src="https://www.youtube.com/embed/8W5dP0hwGto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="links">
-                        <a href="https://www.youtube.com/watch?v=8W5dP0hwGto&ab_channel=ProsaInterior" target="_blank">
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-                                <p>                               Assista no YouTube
-                                </p> 
-                            </div>
-                            
-                        </a>
-                        <a href="https://open.spotify.com/episode/0eeuwWoxzeBE79hRKiGIrk?si=ragz16qSShSe8Vxr9zIZzQ" target="_blank">
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.098 10.638c-3.868-2.297-10.248-2.508-13.941-1.387-.593.18-1.22-.155-1.399-.748-.18-.593.154-1.22.748-1.4 4.239-1.287 11.285-1.038 15.738 1.605.533.317.708 1.005.392 1.538-.316.533-1.005.709-1.538.392zm-.126 3.403c-.272.44-.847.578-1.287.308-3.225-1.982-8.142-2.557-11.958-1.399-.494.15-1.017-.129-1.167-.623-.149-.495.13-1.016.624-1.167 4.358-1.322 9.776-.682 13.48 1.595.44.27.578.847.308 1.286zm-1.469 3.267c-.215.354-.676.465-1.028.249-2.818-1.722-6.365-2.111-10.542-1.157-.402.092-.803-.16-.895-.562-.092-.403.159-.804.562-.896 4.571-1.045 8.492-.595 11.655 1.338.353.215.464.676.248 1.028zm-5.503-17.308c-6.627 0-12 5.373-12 12 0 6.628 5.373 12 12 12 6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12z"/></svg>
-                            <p>
-                            Ouça no Spotify 
-                            </p>
-                            </div>
-                            
-                        </a>
-                    </div>
-                </div>                
+            <div class="card">
+              <div class="premiums grid">
+                <a href="https://marianna.byfood.com.br" target="_blank">
+                  <img src="./ASSETS/imgs/SPONSORS/MARIANNA2.png" alt="PASTELARIA MARIANNA">
+                </a>
+                <a href="https://www.instagram.com/veradimanartesanato/?hl=pt-br" target="_blank">
+                  <img src="./ASSETS/imgs/SPONSORS/VERA.png" alt="VERA DIMAN ARTESANATO">
+                </a> 
+              </div>
             </div>
-
-            <div class="col-lg-1 col-md-2 col-xs-3"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-1 col-md-2 col-xs-3"></div>
-
-            <div class="col-lg-5 col-md-4 col-xs-3">
-                <div class="box" style="margin-top: 3vh;">
-                    <iframe src="https://www.youtube.com/embed/KFBZOO_A1Sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="links">
-
-                        <a href="https://www.youtube.com/watch?v=KFBZOO_A1Sc&t=422s&ab_channel=ProsaInterior" target="_blank">
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-                                <p>                               Assista no YouTube
-                                </p> 
-                            </div>                            
-                        </a>
-
-                        <a href="https://open.spotify.com/episode/0PraCK7ElmM5y62LlY7kwv?si=7b914fa93015459f" target="_blank">
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.098 10.638c-3.868-2.297-10.248-2.508-13.941-1.387-.593.18-1.22-.155-1.399-.748-.18-.593.154-1.22.748-1.4 4.239-1.287 11.285-1.038 15.738 1.605.533.317.708 1.005.392 1.538-.316.533-1.005.709-1.538.392zm-.126 3.403c-.272.44-.847.578-1.287.308-3.225-1.982-8.142-2.557-11.958-1.399-.494.15-1.017-.129-1.167-.623-.149-.495.13-1.016.624-1.167 4.358-1.322 9.776-.682 13.48 1.595.44.27.578.847.308 1.286zm-1.469 3.267c-.215.354-.676.465-1.028.249-2.818-1.722-6.365-2.111-10.542-1.157-.402.092-.803-.16-.895-.562-.092-.403.159-.804.562-.896 4.571-1.045 8.492-.595 11.655 1.338.353.215.464.676.248 1.028zm-5.503-17.308c-6.627 0-12 5.373-12 12 0 6.628 5.373 12 12 12 6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12z"/></svg>
-                            <p>
-                            Ouça no Spotify 
-                            </p>
-                            </div>                            
-                        </a>
-
-                    </div>
-                </div>
-            </div>            
-            
-            <div class="col-lg-5 col-md-4 col-xs-3">
-                <div class="box" style="margin-top: 3vh;">
-                    <iframe src="https://www.youtube.com/embed/YQRdrRneDXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="links">
-                        <a href="https://www.youtube.com/watch?v=YQRdrRneDXE&t=4809s&ab_channel=ProsaInterior" target="_blank">
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-                                <p>                               Assista no YouTube
-                                </p> 
-                            </div>
-                            
-                        </a>
-                        <a href="https://open.spotify.com/episode/7fhiLtdT0sOW4fJandKBSd?si=XsMxD6CKTQ6FR-S2cA2JkA" target="_blank">
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.098 10.638c-3.868-2.297-10.248-2.508-13.941-1.387-.593.18-1.22-.155-1.399-.748-.18-.593.154-1.22.748-1.4 4.239-1.287 11.285-1.038 15.738 1.605.533.317.708 1.005.392 1.538-.316.533-1.005.709-1.538.392zm-.126 3.403c-.272.44-.847.578-1.287.308-3.225-1.982-8.142-2.557-11.958-1.399-.494.15-1.017-.129-1.167-.623-.149-.495.13-1.016.624-1.167 4.358-1.322 9.776-.682 13.48 1.595.44.27.578.847.308 1.286zm-1.469 3.267c-.215.354-.676.465-1.028.249-2.818-1.722-6.365-2.111-10.542-1.157-.402.092-.803-.16-.895-.562-.092-.403.159-.804.562-.896 4.571-1.045 8.492-.595 11.655 1.338.353.215.464.676.248 1.028zm-5.503-17.308c-6.627 0-12 5.373-12 12 0 6.628 5.373 12 12 12 6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12z"/></svg>
-                            <p>
-                            Ouça no Spotify 
-                            </p>
-                            </div>
-                            
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-1 col-md-2 col-xs-3"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-2 col-md-1"></div>
-
-            <div class="col-lg-6 col-md-10" style="display: flex; justify-content: center; width: 100%;">                
-                    <div class="see-more text2">
-                        <a href="https://www.youtube.com/c/ProsaInterior/videos" target="_blank">
-                            <strong>
-                                TODOS OS EPISÓDIOS 
-                            </strong>
-                        </a>
-                    </div>
-                                                
+            <div class="card">
+              <div class="partners grid">
+                <a href="https://www.facebook.com/noticiantes" target="_blank">
+                  <img src="./ASSETS/imgs/SPONSORS/NOTICIANTES.png"  style="max-width: 6rem;" alt="NOTICIANTES">
+                </a>
+                <a href="https://www.youtube.com/c/PodTech" target="_blank">
+                  <img src="./ASSETS/imgs/SPONSORS/PODTECH.png" alt="PODTECH PODCAST">
+                </a>
+              </div>
             </div>
             
-            <div class="col-lg-2 col-md-1"></div>
-        </div>
-    
-    </div>
-
-    <div id="store" class="container">
-        
-        <div class="row">
-            <div class="col-lg-2">
-
-            </div>
-            <div class="col-lg-8" style="display: flex; justify-content:center">                
-                <h2 class="text1" style="font-size: 8vh; margin: 4vh;">
-                    LOJA DO PROSA!
-                </h2>                
-            </div>
-            <div class="col-lg-2">
-    
-            </div>
-        </div>        
-        
-        <div class="row">
-            <div class="col-md-4 col-sm-3"></div>
-            <div class="col-md-4 col-sm-6">
-                <div class="shirt">
-
-                    <div class="pics">
-                        <img class="img-fluid" src="./img/produtos/camiseta galeria/1.jpg" >
-                        <img class="hover-img img-fluid" src="./img/produtos/camiseta galeria/2.jpg" alt="CAMISETA">                        
-                    </div>
-
-                    <div>
-                        <p style="margin-top: 48vh" class="text2 merchan">Camiseta "Prosinha Baririense"
-                            <br>R$ 60
-                        </p>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-3"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 col-sm-3"></div>
-            <div class="col-md-4 col-sm-6">
-                <div class="mug">
-
-                    <div class="pics">
-                        <img class="img-fluid" src="./img/produtos/caneca galeria/1.jpg" alt="CANECA Prosa Interior" >
-                        <img class="hover-img img-fluid" src="./img/produtos/caneca galeria/2.jpg" alt="CANECA Prosa Interior">                        
-                    </div>
-                    
-                    <div>
-                        <p style="margin-top: 65vh"class="text2 merchan">Caneca Prosa Interior
-                            <br>R$ 30
-                        </p>
-                    </div>
-                </div>              
-            </div>
-            <div class="col-md-4 col-sm-3"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 col-sm-3"></div>
-            <div class="col-md-4 col-sm-6">
-                <div class="combo">
-
-                    <div class="pics">
-                       <img class="img-fluid" src="./img/produtos/combo galeria/COMBO 1.jpg" alt="COMBO CAPIVARA BURGUESA">
-                       <img class="hover-img img-fluid" src="./img/produtos/combo galeria/COMBO 2.jpg" alt="COMBO CAPIVARA BURGUESA">                       
-                    </div>
-                    <div>
-                        <p style="margin-top: 63vh;" class="text2 merchan">
-                            COMBO "CAPIVARA BURGUESA"
-                                <br>R$ 80
-                            </p>
-                    </div>
-                
-                </div>                
-            </div>
-            <div class="col-md-4 col-sm-3"></div>
-        </div>
-
-        <div class="row">
-
-            <div class="col-lg-3 col-md-1"></div>
             
-            <div class="col-lg-6 col-md-10">
-                <div class="see-more text2">
-                    <a href="https://forms.gle/Jg675FSMmEf4XjWFA">Fazer meu pedido!</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-1"></div>
+          </div>
+          
+          <p class="subtitle">
+              Seja você também um parceiro do <strong>Prosa Interior</strong>!         
+          </p>
+          
+      </section>
 
+    </main>
+
+    <!--FOOTER-->
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo-alt" href="#home">
+            <img src="./ASSETS/imgs/Prosa@Selo-Colorido.png" alt="" />
+          </a>
+          <p>©2021 Prosa Interior</p>
+          <p>Todos os Direitos reservados.</p>
         </div>
 
-    </div>
-
-    <div id="comments" class="container">
-
-        <div class="row">
-            <div class="col-lg-3">
-
-            </div>
-            <div class="col-lg-6" style="display: flex; justify-content:center">                
-                <h2 class="text1" style="font-size: 8vh; margin: 4vh;">
-                    COMENTÁRIOS
-                </h2>                
-            </div>
-            <div class="col-lg-3">
-
-            </div>
-
+        <div class="social grid">
+          <a href="https://www.instagram.com/prosainterior/" target="_blank">
+            <i class="icon-instagram"></i>
+          </a>
+          <a
+            href="https://open.spotify.com/show/0aS0Y5ZQEDdRc1GPIBkjp5?si=Oqmj3pQBShmB03eondWVgw&dl_branch=1"
+            target="_blank"
+          >
+            <i class="icon-spotify"></i>
+          </a>
+          <a href="https://www.youtube.com/c/prosainterior" target="_blank">
+            <i class="icon-youtube"></i>
+          </a>
         </div>
+      </div>
+    </footer>
 
-        <div class="row">
+    <a href="#" class="back-to-top">
+      <i class="icon-arrow-up"></i>
+    </a>
 
-            <div class="col">
-                <h3 class="text2 think-about-us">
-                    Como foi a experência para os nossos convidados
-                </h3>
-            </div>
-            
-        </div>
-
-        <div class="row">
-
-            <div class="col-md-4">
-                <div class="comment-box">
-                    <img class="img-fluid comment-icon" src="./img/comentários/site myrella.jpg" alt="">
-                        <h5 class="text2"
-                        style="font-size: 4vh;
-                        margin: 2vh;">
-                            <strong>
-                                Myrella Soares
-                            </strong>
-                            
-                        </h5>
-
-                        <p class="text2"
-                        style="font-size: 3vh;">
-                            "Foi muito bom ter a oportunidade de ser entrevistada por vocês (duas vezes). Super profissionais, educados e receptivos. Ferramenta informativa muito importante para nossa comunidade!
-                            <br><br>Gratidão e sucesso."
-                        </p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="comment-box">
-
-                    <img class="img-fluid comment-icon" src="./img/comentários/site daisa.jpg" alt="">
-
-                        <h5 class="text2" style="font-size: 4vh;
-                        margin: 2vh;">
-                            <strong>
-                                Daísa Munhoz
-                            </strong>
-                            
-                        </h5>
-                        <p class="text2" style="font-size: 3vh;">
-                         "Vocês são ótimos anfitriões, deixam o convidado a vontade tanto pela postura de vocês quanto pelos mimos oferecidos, em especial, agradeço pelo cuidado de oferecerem comidinhas veganas.(...)
-                         <br>Vocês são demais!"
-                        </p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="comment-box">
-                    <img class="img-fluid comment-icon" src="./img/comentários/site wagner.jpg" alt="">
-                        <h5 class="text2"
-                        style="font-size: 4vh;
-                        margin: 2vh;">
-                            <strong>
-                                Wagner Bueno
-                            </strong>
-                            
-                        </h5>
-                        <p class="text2"
-                        style="font-size: 3vh;">
-                         "Foi um dos melhores momentos da minha vida! Poder contar contos da 'Era Wagner Agita' em Bariri foi incrível! Acredito que foi o despertar de mais historias pra contar! Foi extremamente importante pra mim!!!
-                         <br>IMENSA GRATIDÃO!!!"
-                        </p>
-                </div>
-                
-            </div>
-            
-        </div>
-
-    </div>
-
-    <div id="support" class="container">
-
-        <div class="row">
-            <div class="col-lg-3">
-
-            </div>
-            <div class="col-lg-6" style="display: flex; justify-content:center">                
-                <h2 class="text1" style="font-size: 8vh; margin: 4vh;">
-                    APOIADORES
-                </h2>                
-            </div>
-            <div class="col-lg-3">
-
-            </div>
-        </div>
-
-        <div class="row">
-
-            <div class="col-md-3">
-
-            </div>
-            <div class="col-md-6">
-                <div>
-                    <div class="master">
-                        <img class="img-fluid" src="./img/Logo Pastelaria SEM TEL.png" alt="PASTELARIA MARIANNA">
-                    </div>
-                </div>
-            </div> 
-            <div class="col-md-3">
-
-            </div>          
-
-        </div>
-
-        <div class="row">
-
-            <div class="col-md-3">
-
-            </div>
-            <div class="col-md-6">
-                <div>
-                    <div class="master">
-                        <img class="img-fluid" src="./img/Logo Esfiharia Marianna SEM TEL2.png" alt="AGORA TEM A ESFIHARIA!">
-                    </div>
-                </div>                
-            </div>
-            <div class="col-md-3">
-
-            </div>
-
-        </div>
-
-        <div class="row">
-            <div class="col">
-                <div class="master" style="margin-bottom: 5vh;">
-                    <a href="https://marianna.byfood.com.br" target="_blank" style="text-decoration:none;">
-                        <p class="support-text text2" style="font-size: 4vh; margin-bottom: 0;">
-                            Pelo telefone: 3662-6605 ou
-                            <br><strong>Faça seu pedido aqui!!</strong>
-                        </p>
-                    </a>
-                </div>
-            </div>
-        </div>        
-        
-        <div class="row">
-
-            <div class="col">
-                <div>
-                    <div class="vera">
-
-                        <img class="img-fluid" src="./img/Vera Diman Artesanato_Tipografia_01.png" alt="Vera Diman Artesanato - Deixe a sua vida mais bonita!">
-                        <a href="https://www.instagram.com/veradimanartesanato/?hl=pt-br" target="_blank">
-                            <p class="text2 support-text" style="margin-bottom:0;">
-                                Deixe sua vida mais bonita!
-                                <strong>Confira aqui as peças</strong> 
-                            </p>
-                        </a>
-
-                    </div>
-                </div>            
-            </div>
-
-        </div>
-
-        <div class="row">
-            <div class="col-lg-3">
-
-            </div>
-            <div class="col-lg-6" style="display: flex; justify-content:center">                
-                <h2 class="text1" style="font-size: 7vh; margin: 0vh; margin-top: 5vh;">
-                    NOSSOS PARCEIROS
-                </h2>                
-            </div>
-            <div class="col-lg-3">
-
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col">
-                <div>
-                    <div class="partnership">
-
-                        <img class="img-fluid" src="./img/LOGOTIPO_NOTICIANTES.png" alt="NOTICIANTES" style="height: auto; width: 18vh; margin: 5vh;">
-                        <a href="https://www.facebook.com/noticiantes" target="_blank">
-                            <p class="text2" style="font-size: 3vh;
-                            text-align: center; margin-bottom: 0;">Em parceiria com <strong>Noticiantes</strong> - A notícia antes da Notícia!                      
-                            </p>
-                        </a>  
-
-                    </div>
-                </div>
-            </div>
-        </div>  
-
-        <div class="row">
-                <div class="col">
-                    <div>
-                        <div class="partnership">
-                            <img class="img-fluid" src="./img/PODTECH.png" alt="PODTECH" style="height: auto; width: 47vh; margin: 0vh;">
-                            <a href="https://www.youtube.com/channel/UC2nbmzxkFFRtXQW-EMU-MaQ" target="_blank">
-                                <p class="text2" style="font-size: 3vh; text-align: center;margin-bottom: 0;"><strong>PODTECH</strong>- A TECH PODCAST!                     
-                                </p>
-                            </a>    
-                        </div>
-                    </div>
-                </div>
-        </div>
-
-    </div> 
-
-
+    <!--SWIPER-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>    
+    <!--SCROLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--SCRIPTS-->
     <script src="./scripts.js"></script>
+
+
     
-</body>
-<footer>
-    <div class="prosa-links">
-        <div class="social-link">
-            <div class="images">
-
-                <a href="https://www.instagram.com/prosainterior/?hl=pt-br" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-                </a>
-
-                <a href="https://open.spotify.com/show/0aS0Y5ZQEDdRc1GPIBkjp5" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.098 10.638c-3.868-2.297-10.248-2.508-13.941-1.387-.593.18-1.22-.155-1.399-.748-.18-.593.154-1.22.748-1.4 4.239-1.287 11.285-1.038 15.738 1.605.533.317.708 1.005.392 1.538-.316.533-1.005.709-1.538.392zm-.126 3.403c-.272.44-.847.578-1.287.308-3.225-1.982-8.142-2.557-11.958-1.399-.494.15-1.017-.129-1.167-.623-.149-.495.13-1.016.624-1.167 4.358-1.322 9.776-.682 13.48 1.595.44.27.578.847.308 1.286zm-1.469 3.267c-.215.354-.676.465-1.028.249-2.818-1.722-6.365-2.111-10.542-1.157-.402.092-.803-.16-.895-.562-.092-.403.159-.804.562-.896 4.571-1.045 8.492-.595 11.655 1.338.353.215.464.676.248 1.028zm-5.503-17.308c-6.627 0-12 5.373-12 12 0 6.628 5.373 12 12 12 6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12z"/></svg>
-                </a>
-
-                <a href="https://www.youtube.com/channel/UC8YcjAyGXOu97UjYXqymbKw?view_as=subscriber" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-                </a>
-
-                <a href="https://twitter.com/ProsaInterior" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
-                </a>
-
-            </div>
-        </div>
-    </div>
-</footer>
-
+    
+  </body>
 </html>
