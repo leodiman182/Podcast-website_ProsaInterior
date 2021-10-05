@@ -63,8 +63,8 @@ scrollReveal.reveal(
 #about .image, #about .text,
 #episodes header, #episodes .cards, #episodes .buttons,
 #testimonials header, #testimonials .testimonials,
-#store .header, #store .cards, #store .buttons,
-#support .header, #support .cards, #support .subtitle,
+#store .header, #store .card, #store .buttons,
+#support .header, #support .card, #support .subtitle,
 footer .logo, footer .social
 `,
   { interval: 100 }
