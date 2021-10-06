@@ -49,27 +49,6 @@ const swiper = new Swiper('.swiper', {
   }
 })
 
-/* =================SCROLL REVEAL================= */
-
-const scrollReveal = ScrollReveal({
-  origin: 'top',
-  distance: '32px',
-  duration: 700,
-  reset: true
-})
-
-scrollReveal.reveal(
-  `
-#about .image, #about .text,
-#episodes header, #episodes .cards, #episodes .buttons,
-#testimonials header, #testimonials .testimonials,
-#store .header, #store .card, #store .buttons,
-#support .header, #support .card, #support .subtitle,
-footer .logo, footer .social
-`,
-  { interval: 100 }
-)
-
 /* =====BACK TO THE TOP====== */
 
 const backToTopButton = document.querySelector('.back-to-top')
